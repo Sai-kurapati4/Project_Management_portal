@@ -1,10 +1,10 @@
-# 🚀 TaskFlow - Mini Project Management Portal
+#  TaskFlow - Mini Project Management Portal
 
 A premium full-stack Project Management Portal built for the o2h Full Stack Application Developer Fresher Hiring Assessment. It supports secure JWT authentication, status updates, statistics, search filters, sorting, responsive styling (glassmorphism design), and a dark mode toggle.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React (Vite, JavaScript), Axios, Custom Vanilla CSS (Premium, Glassmorphism-inspired)
 - **Backend**: Node.js, Express
@@ -13,7 +13,7 @@ A premium full-stack Project Management Portal built for the o2h Full Stack Appl
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 project-root/
@@ -41,7 +41,7 @@ project-root/
 
 ---
 
-## ⚙️ Setup and Installation
+##  Setup and Installation
 
 ### 1. Prerequisites
 Ensure you have **Node.js** (v16+) and **npm** installed on your system.
@@ -90,7 +90,7 @@ cd Project_Mngmnt_o2h
 
 ---
 
-## 🧪 Running Automated Tests
+##  Running Automated Tests
 
 To execute the backend integration tests verifying all API endpoints, validation logic, and authentication locks:
 1. Navigate to the `backend` directory:
@@ -104,7 +104,7 @@ To execute the backend integration tests verifying all API endpoints, validation
 
 ---
 
-## 💡 Assumptions Made
+##  Assumptions Made
 
 1. **SQLite Database**: SQLite was selected instead of MongoDB/MySQL to enable **out-of-the-box operation**. The database is a local file (`database.sqlite`) created automatically on startup, requiring no external server configuration.
 2. **User Isolation**: All tasks are strictly mapped to the logged-in User ID. Users can only search, filter, view, create, edit, or delete their own tasks.
@@ -114,11 +114,11 @@ To execute the backend integration tests verifying all API endpoints, validation
 
 ---
 
-## 📖 API Documentation
+##  API Documentation
 
 All routes except authentication require a valid JWT token sent in the `Authorization` header as: `Bearer <token>`.
 
-### 🔐 Authentication Endpoints
+###  Authentication Endpoints
 
 #### 1. Register User
 - **URL**: `/api/auth/register`
@@ -163,7 +163,7 @@ All routes except authentication require a valid JWT token sent in the `Authoriz
 
 ---
 
-### 📋 Task Management Endpoints (Protected)
+### Task Management Endpoints (Protected)
 
 #### 3. Get All Tasks
 - **URL**: `/api/tasks`
